@@ -18,21 +18,21 @@ static std::string gen_header (std::string return_type, std::string function_nam
 static std::string gen_boundary (std::string var, std::string comp, std::string encapsulation, double lower_bound, double upper_bound, double value) {
     std::string message = "\tif ";
     message += encapsulation + ", " + std::to_string (lower_bound) + ") <= " + comp + " <= " + encapsulation + ", " + std::to_string (upper_bound) + ")\n";
-    message += "\t\t" + var + " = " + std::to_string (value) + ";\n";
+    message += "\t\t" + var + " = " + encapsulation + ", " +std::to_string (value) + ");\n";
     return message + "\tend\n";
 }
 
 static std::string gen_header_start (std::string var, std::string comp, std::string encapsulation, double lower_bound, double value) {
     std::string message = "\tif ";
     message += encapsulation + ", " + std::to_string (lower_bound) + ") < " + comp + "\n";
-    message += "\t\t" + var + " = " + std::to_string (value) + ";\n";
+    message += "\t\t" + var + " = " + encapsulation + ", " +std::to_string (value) + ");\n";
     return message + "\tend\n";
 }
 
 static std::string gen_tail_start (std::string var, std::string comp, std::string encapsulation, double upper_bound, double value) {
    std::string message = "\tif ";
     message += encapsulation + ", " + std::to_string (upper_bound) + ") > " + comp + "\n";
-    message += "\t\t" + var + " = " + std::to_string (value) + ";\n";
+    message += "\t\t" + var + " = " + encapsulation + ", " +std::to_string (value) + ");\n";
     return message + "\tend\n"; 
 }
 
