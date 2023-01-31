@@ -17,7 +17,7 @@ static std::string gen_header (std::string return_type, std::string function_nam
 
 static std::string gen_boundary (std::string var, std::string comp, std::string encapsulation, double lower_bound, double upper_bound, double value) {
     std::string message = "\tif ";
-    message += "("+ encapsulation + ", " + std::to_string (lower_bound) + ") <= " + comp + ") & (" + comp + " <= " + encapsulation + ", " + std::to_string (upper_bound) + "))\n";
+    message += "("+ encapsulation + ", " + std::to_string (lower_bound) + ") <= " + comp + ") && (" + comp + " <= " + encapsulation + ", " + std::to_string (upper_bound) + "))\n";
     message += "\t\t" + var + " = " + encapsulation + ", " +std::to_string (value) + ");\n";
     return message + "\tend\n";
 }
@@ -38,7 +38,7 @@ static std::string gen_tail_start (std::string var, std::string comp, std::strin
 
 void Generator::sigmoid_write_to_file (std::string filename) {
     // header
-    const std::string header = gen_header ("z0",pt_sigmoid, "x0");
+    const std::string header = gen_header ("z0",pt_sigmoid, "x");
     const std::string tail = "end";
     
     std::string body;
