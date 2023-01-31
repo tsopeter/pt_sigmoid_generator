@@ -1,1448 +1,1448 @@
 function z0 = pt_sigmoid_Fix_64_32(x0)
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -12.000000) < x
-		var = 0.000000;
+		z0 = 0.000000;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -12.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.950000)
-		var = 0.000006;
+		z0 = 0.000006;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.900000)
-		var = 0.000007;
+		z0 = 0.000007;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.850000)
-		var = 0.000007;
+		z0 = 0.000007;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.800000)
-		var = 0.000007;
+		z0 = 0.000007;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.750000)
-		var = 0.000008;
+		z0 = 0.000008;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.700000)
-		var = 0.000008;
+		z0 = 0.000008;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.650000)
-		var = 0.000009;
+		z0 = 0.000009;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.600000)
-		var = 0.000009;
+		z0 = 0.000009;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.550000)
-		var = 0.000009;
+		z0 = 0.000009;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.500000)
-		var = 0.000010;
+		z0 = 0.000010;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.450000)
-		var = 0.000010;
+		z0 = 0.000010;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.400000)
-		var = 0.000011;
+		z0 = 0.000011;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.350000)
-		var = 0.000011;
+		z0 = 0.000011;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.300000)
-		var = 0.000012;
+		z0 = 0.000012;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.250000)
-		var = 0.000013;
+		z0 = 0.000013;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.200000)
-		var = 0.000013;
+		z0 = 0.000013;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.150000)
-		var = 0.000014;
+		z0 = 0.000014;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.100000)
-		var = 0.000015;
+		z0 = 0.000015;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.050000)
-		var = 0.000015;
+		z0 = 0.000015;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.000000)
-		var = 0.000016;
+		z0 = 0.000016;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.950000)
-		var = 0.000017;
+		z0 = 0.000017;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.900000)
-		var = 0.000018;
+		z0 = 0.000018;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.850000)
-		var = 0.000019;
+		z0 = 0.000019;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.800000)
-		var = 0.000020;
+		z0 = 0.000020;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.750000)
-		var = 0.000021;
+		z0 = 0.000021;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.700000)
-		var = 0.000022;
+		z0 = 0.000022;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.650000)
-		var = 0.000023;
+		z0 = 0.000023;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.600000)
-		var = 0.000024;
+		z0 = 0.000024;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.550000)
-		var = 0.000026;
+		z0 = 0.000026;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.500000)
-		var = 0.000027;
+		z0 = 0.000027;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.450000)
-		var = 0.000028;
+		z0 = 0.000028;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.400000)
-		var = 0.000030;
+		z0 = 0.000030;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.350000)
-		var = 0.000031;
+		z0 = 0.000031;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.300000)
-		var = 0.000033;
+		z0 = 0.000033;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.250000)
-		var = 0.000034;
+		z0 = 0.000034;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.200000)
-		var = 0.000036;
+		z0 = 0.000036;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.150000)
-		var = 0.000038;
+		z0 = 0.000038;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.100000)
-		var = 0.000040;
+		z0 = 0.000040;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.050000)
-		var = 0.000042;
+		z0 = 0.000042;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.000000)
-		var = 0.000044;
+		z0 = 0.000044;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -10.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.950000)
-		var = 0.000047;
+		z0 = 0.000047;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.900000)
-		var = 0.000049;
+		z0 = 0.000049;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.850000)
-		var = 0.000051;
+		z0 = 0.000051;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.800000)
-		var = 0.000054;
+		z0 = 0.000054;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.750000)
-		var = 0.000057;
+		z0 = 0.000057;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.700000)
-		var = 0.000060;
+		z0 = 0.000060;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.650000)
-		var = 0.000063;
+		z0 = 0.000063;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.600000)
-		var = 0.000066;
+		z0 = 0.000066;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.550000)
-		var = 0.000069;
+		z0 = 0.000069;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.500000)
-		var = 0.000073;
+		z0 = 0.000073;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.450000)
-		var = 0.000077;
+		z0 = 0.000077;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.400000)
-		var = 0.000081;
+		z0 = 0.000081;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.350000)
-		var = 0.000085;
+		z0 = 0.000085;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.300000)
-		var = 0.000089;
+		z0 = 0.000089;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.250000)
-		var = 0.000094;
+		z0 = 0.000094;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.200000)
-		var = 0.000099;
+		z0 = 0.000099;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.150000)
-		var = 0.000104;
+		z0 = 0.000104;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.100000)
-		var = 0.000109;
+		z0 = 0.000109;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.050000)
-		var = 0.000115;
+		z0 = 0.000115;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.000000)
-		var = 0.000120;
+		z0 = 0.000120;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -9.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.950000)
-		var = 0.000127;
+		z0 = 0.000127;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.900000)
-		var = 0.000133;
+		z0 = 0.000133;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.850000)
-		var = 0.000140;
+		z0 = 0.000140;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.800000)
-		var = 0.000147;
+		z0 = 0.000147;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.750000)
-		var = 0.000155;
+		z0 = 0.000155;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.700000)
-		var = 0.000162;
+		z0 = 0.000162;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.650000)
-		var = 0.000171;
+		z0 = 0.000171;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.600000)
-		var = 0.000180;
+		z0 = 0.000180;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.550000)
-		var = 0.000189;
+		z0 = 0.000189;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.500000)
-		var = 0.000198;
+		z0 = 0.000198;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.450000)
-		var = 0.000209;
+		z0 = 0.000209;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.400000)
-		var = 0.000219;
+		z0 = 0.000219;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.350000)
-		var = 0.000231;
+		z0 = 0.000231;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.300000)
-		var = 0.000242;
+		z0 = 0.000242;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.250000)
-		var = 0.000255;
+		z0 = 0.000255;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.200000)
-		var = 0.000268;
+		z0 = 0.000268;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.150000)
-		var = 0.000282;
+		z0 = 0.000282;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.100000)
-		var = 0.000296;
+		z0 = 0.000296;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.050000)
-		var = 0.000311;
+		z0 = 0.000311;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.000000)
-		var = 0.000327;
+		z0 = 0.000327;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -8.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.950000)
-		var = 0.000344;
+		z0 = 0.000344;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.900000)
-		var = 0.000362;
+		z0 = 0.000362;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.850000)
-		var = 0.000380;
+		z0 = 0.000380;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.800000)
-		var = 0.000400;
+		z0 = 0.000400;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.750000)
-		var = 0.000420;
+		z0 = 0.000420;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.700000)
-		var = 0.000442;
+		z0 = 0.000442;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.650000)
-		var = 0.000464;
+		z0 = 0.000464;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.600000)
-		var = 0.000488;
+		z0 = 0.000488;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.550000)
-		var = 0.000513;
+		z0 = 0.000513;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.500000)
-		var = 0.000539;
+		z0 = 0.000539;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.450000)
-		var = 0.000567;
+		z0 = 0.000567;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.400000)
-		var = 0.000596;
+		z0 = 0.000596;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.350000)
-		var = 0.000627;
+		z0 = 0.000627;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.300000)
-		var = 0.000659;
+		z0 = 0.000659;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.250000)
-		var = 0.000692;
+		z0 = 0.000692;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.200000)
-		var = 0.000728;
+		z0 = 0.000728;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.150000)
-		var = 0.000765;
+		z0 = 0.000765;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.100000)
-		var = 0.000804;
+		z0 = 0.000804;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.050000)
-		var = 0.000846;
+		z0 = 0.000846;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.000000)
-		var = 0.000889;
+		z0 = 0.000889;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -7.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.950000)
-		var = 0.000934;
+		z0 = 0.000934;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.900000)
-		var = 0.000982;
+		z0 = 0.000982;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.850000)
-		var = 0.001033;
+		z0 = 0.001033;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.800000)
-		var = 0.001085;
+		z0 = 0.001085;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.750000)
-		var = 0.001141;
+		z0 = 0.001141;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.700000)
-		var = 0.001199;
+		z0 = 0.001199;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.650000)
-		var = 0.001261;
+		z0 = 0.001261;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.600000)
-		var = 0.001325;
+		z0 = 0.001325;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.550000)
-		var = 0.001393;
+		z0 = 0.001393;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.500000)
-		var = 0.001465;
+		z0 = 0.001465;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.450000)
-		var = 0.001540;
+		z0 = 0.001540;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.400000)
-		var = 0.001618;
+		z0 = 0.001618;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.350000)
-		var = 0.001701;
+		z0 = 0.001701;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.300000)
-		var = 0.001788;
+		z0 = 0.001788;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.250000)
-		var = 0.001880;
+		z0 = 0.001880;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.200000)
-		var = 0.001976;
+		z0 = 0.001976;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.150000)
-		var = 0.002077;
+		z0 = 0.002077;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.100000)
-		var = 0.002183;
+		z0 = 0.002183;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.050000)
-		var = 0.002295;
+		z0 = 0.002295;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.000000)
-		var = 0.002412;
+		z0 = 0.002412;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -6.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.950000)
-		var = 0.002536;
+		z0 = 0.002536;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.900000)
-		var = 0.002666;
+		z0 = 0.002666;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.850000)
-		var = 0.002802;
+		z0 = 0.002802;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.800000)
-		var = 0.002945;
+		z0 = 0.002945;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.750000)
-		var = 0.003096;
+		z0 = 0.003096;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.700000)
-		var = 0.003254;
+		z0 = 0.003254;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.650000)
-		var = 0.003420;
+		z0 = 0.003420;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.600000)
-		var = 0.003595;
+		z0 = 0.003595;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.550000)
-		var = 0.003778;
+		z0 = 0.003778;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.500000)
-		var = 0.003971;
+		z0 = 0.003971;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.450000)
-		var = 0.004174;
+		z0 = 0.004174;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.400000)
-		var = 0.004387;
+		z0 = 0.004387;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.350000)
-		var = 0.004611;
+		z0 = 0.004611;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.300000)
-		var = 0.004846;
+		z0 = 0.004846;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.250000)
-		var = 0.005093;
+		z0 = 0.005093;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.200000)
-		var = 0.005353;
+		z0 = 0.005353;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.150000)
-		var = 0.005626;
+		z0 = 0.005626;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.100000)
-		var = 0.005913;
+		z0 = 0.005913;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.050000)
-		var = 0.006214;
+		z0 = 0.006214;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.000000)
-		var = 0.006531;
+		z0 = 0.006531;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -5.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.950000)
-		var = 0.006863;
+		z0 = 0.006863;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.900000)
-		var = 0.007213;
+		z0 = 0.007213;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.850000)
-		var = 0.007580;
+		z0 = 0.007580;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.800000)
-		var = 0.007965;
+		z0 = 0.007965;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.750000)
-		var = 0.008370;
+		z0 = 0.008370;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.700000)
-		var = 0.008795;
+		z0 = 0.008795;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.650000)
-		var = 0.009242;
+		z0 = 0.009242;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.600000)
-		var = 0.009711;
+		z0 = 0.009711;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.550000)
-		var = 0.010204;
+		z0 = 0.010204;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.500000)
-		var = 0.010722;
+		z0 = 0.010722;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.450000)
-		var = 0.011265;
+		z0 = 0.011265;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.400000)
-		var = 0.011836;
+		z0 = 0.011836;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.350000)
-		var = 0.012435;
+		z0 = 0.012435;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.300000)
-		var = 0.013065;
+		z0 = 0.013065;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.250000)
-		var = 0.013725;
+		z0 = 0.013725;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.200000)
-		var = 0.014419;
+		z0 = 0.014419;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.150000)
-		var = 0.015147;
+		z0 = 0.015147;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.100000)
-		var = 0.015911;
+		z0 = 0.015911;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.050000)
-		var = 0.016713;
+		z0 = 0.016713;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.000000)
-		var = 0.017555;
+		z0 = 0.017555;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -4.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.950000)
-		var = 0.018439;
+		z0 = 0.018439;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.900000)
-		var = 0.019366;
+		z0 = 0.019366;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.850000)
-		var = 0.020338;
+		z0 = 0.020338;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.800000)
-		var = 0.021359;
+		z0 = 0.021359;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.750000)
-		var = 0.022429;
+		z0 = 0.022429;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.700000)
-		var = 0.023552;
+		z0 = 0.023552;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.650000)
-		var = 0.024730;
+		z0 = 0.024730;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.600000)
-		var = 0.025965;
+		z0 = 0.025965;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.550000)
-		var = 0.027260;
+		z0 = 0.027260;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.500000)
-		var = 0.028617;
+		z0 = 0.028617;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.450000)
-		var = 0.030041;
+		z0 = 0.030041;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.400000)
-		var = 0.031532;
+		z0 = 0.031532;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.350000)
-		var = 0.033095;
+		z0 = 0.033095;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.300000)
-		var = 0.034733;
+		z0 = 0.034733;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.250000)
-		var = 0.036449;
+		z0 = 0.036449;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.200000)
-		var = 0.038246;
+		z0 = 0.038246;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.150000)
-		var = 0.040129;
+		z0 = 0.040129;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.100000)
-		var = 0.042099;
+		z0 = 0.042099;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.050000)
-		var = 0.044162;
+		z0 = 0.044162;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.000000)
-		var = 0.046322;
+		z0 = 0.046322;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -3.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.950000)
-		var = 0.048581;
+		z0 = 0.048581;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.900000)
-		var = 0.050945;
+		z0 = 0.050945;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.850000)
-		var = 0.053417;
+		z0 = 0.053417;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.800000)
-		var = 0.056003;
+		z0 = 0.056003;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.750000)
-		var = 0.058705;
+		z0 = 0.058705;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.700000)
-		var = 0.061530;
+		z0 = 0.061530;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.650000)
-		var = 0.064481;
+		z0 = 0.064481;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.600000)
-		var = 0.067564;
+		z0 = 0.067564;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.550000)
-		var = 0.070782;
+		z0 = 0.070782;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.500000)
-		var = 0.074142;
+		z0 = 0.074142;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.450000)
-		var = 0.077648;
+		z0 = 0.077648;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.400000)
-		var = 0.081306;
+		z0 = 0.081306;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.350000)
-		var = 0.085119;
+		z0 = 0.085119;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.300000)
-		var = 0.089094;
+		z0 = 0.089094;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.250000)
-		var = 0.093236;
+		z0 = 0.093236;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.200000)
-		var = 0.097550;
+		z0 = 0.097550;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.150000)
-		var = 0.102041;
+		z0 = 0.102041;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.100000)
-		var = 0.106714;
+		z0 = 0.106714;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.050000)
-		var = 0.111575;
+		z0 = 0.111575;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.000000)
-		var = 0.116628;
+		z0 = 0.116628;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -2.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.950000)
-		var = 0.121878;
+		z0 = 0.121878;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.900000)
-		var = 0.127331;
+		z0 = 0.127331;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.850000)
-		var = 0.132991;
+		z0 = 0.132991;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.800000)
-		var = 0.138862;
+		z0 = 0.138862;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.750000)
-		var = 0.144949;
+		z0 = 0.144949;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.700000)
-		var = 0.151256;
+		z0 = 0.151256;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.650000)
-		var = 0.157787;
+		z0 = 0.157787;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.600000)
-		var = 0.164545;
+		z0 = 0.164545;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.550000)
-		var = 0.171534;
+		z0 = 0.171534;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.500000)
-		var = 0.178756;
+		z0 = 0.178756;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.450000)
-		var = 0.186214;
+		z0 = 0.186214;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.400000)
-		var = 0.193909;
+		z0 = 0.193909;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.350000)
-		var = 0.201843;
+		z0 = 0.201843;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.300000)
-		var = 0.210018;
+		z0 = 0.210018;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.250000)
-		var = 0.218433;
+		z0 = 0.218433;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.200000)
-		var = 0.227088;
+		z0 = 0.227088;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.150000)
-		var = 0.235982;
+		z0 = 0.235982;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.100000)
-		var = 0.245114;
+		z0 = 0.245114;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.050000)
-		var = 0.254482;
+		z0 = 0.254482;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.000000)
-		var = 0.264083;
+		z0 = 0.264083;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -1.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.950000)
-		var = 0.273913;
+		z0 = 0.273913;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.900000)
-		var = 0.283968;
+		z0 = 0.283968;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.850000)
-		var = 0.294242;
+		z0 = 0.294242;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.800000)
-		var = 0.304729;
+		z0 = 0.304729;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.750000)
-		var = 0.315423;
+		z0 = 0.315423;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.700000)
-		var = 0.326317;
+		z0 = 0.326317;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.650000)
-		var = 0.337401;
+		z0 = 0.337401;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.600000)
-		var = 0.348667;
+		z0 = 0.348667;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.550000)
-		var = 0.360104;
+		z0 = 0.360104;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.500000)
-		var = 0.371703;
+		z0 = 0.371703;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.450000)
-		var = 0.383451;
+		z0 = 0.383451;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.400000)
-		var = 0.395337;
+		z0 = 0.395337;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.350000)
-		var = 0.407347;
+		z0 = 0.407347;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.300000)
-		var = 0.419470;
+		z0 = 0.419470;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.250000)
-		var = 0.431690;
+		z0 = 0.431690;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.200000)
-		var = 0.443995;
+		z0 = 0.443995;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.150000)
-		var = 0.456368;
+		z0 = 0.456368;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.100000)
-		var = 0.468795;
+		z0 = 0.468795;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.050000)
-		var = 0.481262;
+		z0 = 0.481262;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -0.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.000000)
-		var = 0.493751;
+		z0 = 0.493751;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.050000)
-		var = 0.506249;
+		z0 = 0.506249;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.100000)
-		var = 0.518738;
+		z0 = 0.518738;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.150000)
-		var = 0.531205;
+		z0 = 0.531205;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.200000)
-		var = 0.543632;
+		z0 = 0.543632;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.250000)
-		var = 0.556005;
+		z0 = 0.556005;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.300000)
-		var = 0.568310;
+		z0 = 0.568310;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.350000)
-		var = 0.580530;
+		z0 = 0.580530;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.400000)
-		var = 0.592653;
+		z0 = 0.592653;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.450000)
-		var = 0.604663;
+		z0 = 0.604663;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.500000)
-		var = 0.616549;
+		z0 = 0.616549;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.550000)
-		var = 0.628297;
+		z0 = 0.628297;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.600000)
-		var = 0.639896;
+		z0 = 0.639896;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.650000)
-		var = 0.651333;
+		z0 = 0.651333;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.700000)
-		var = 0.662599;
+		z0 = 0.662599;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.750000)
-		var = 0.673683;
+		z0 = 0.673683;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.800000)
-		var = 0.684577;
+		z0 = 0.684577;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.850000)
-		var = 0.695271;
+		z0 = 0.695271;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.900000)
-		var = 0.705758;
+		z0 = 0.705758;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.950000)
-		var = 0.716032;
+		z0 = 0.716032;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.000000)
-		var = 0.726087;
+		z0 = 0.726087;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.050000)
-		var = 0.735917;
+		z0 = 0.735917;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.100000)
-		var = 0.745518;
+		z0 = 0.745518;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.150000)
-		var = 0.754886;
+		z0 = 0.754886;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.200000)
-		var = 0.764018;
+		z0 = 0.764018;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.250000)
-		var = 0.772912;
+		z0 = 0.772912;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.300000)
-		var = 0.781567;
+		z0 = 0.781567;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.350000)
-		var = 0.789982;
+		z0 = 0.789982;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.400000)
-		var = 0.798157;
+		z0 = 0.798157;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.450000)
-		var = 0.806091;
+		z0 = 0.806091;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.500000)
-		var = 0.813786;
+		z0 = 0.813786;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.550000)
-		var = 0.821244;
+		z0 = 0.821244;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.600000)
-		var = 0.828466;
+		z0 = 0.828466;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.650000)
-		var = 0.835455;
+		z0 = 0.835455;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.700000)
-		var = 0.842213;
+		z0 = 0.842213;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.750000)
-		var = 0.848744;
+		z0 = 0.848744;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.800000)
-		var = 0.855051;
+		z0 = 0.855051;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.850000)
-		var = 0.861138;
+		z0 = 0.861138;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.900000)
-		var = 0.867009;
+		z0 = 0.867009;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.950000)
-		var = 0.872669;
+		z0 = 0.872669;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.000000)
-		var = 0.878122;
+		z0 = 0.878122;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.050000)
-		var = 0.883372;
+		z0 = 0.883372;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.100000)
-		var = 0.888425;
+		z0 = 0.888425;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.150000)
-		var = 0.893286;
+		z0 = 0.893286;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.200000)
-		var = 0.897959;
+		z0 = 0.897959;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.250000)
-		var = 0.902450;
+		z0 = 0.902450;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.300000)
-		var = 0.906764;
+		z0 = 0.906764;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.350000)
-		var = 0.910906;
+		z0 = 0.910906;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.400000)
-		var = 0.914881;
+		z0 = 0.914881;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.450000)
-		var = 0.918694;
+		z0 = 0.918694;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.500000)
-		var = 0.922352;
+		z0 = 0.922352;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.550000)
-		var = 0.925858;
+		z0 = 0.925858;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.600000)
-		var = 0.929218;
+		z0 = 0.929218;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.650000)
-		var = 0.932436;
+		z0 = 0.932436;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.700000)
-		var = 0.935519;
+		z0 = 0.935519;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.750000)
-		var = 0.938470;
+		z0 = 0.938470;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.800000)
-		var = 0.941295;
+		z0 = 0.941295;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.850000)
-		var = 0.943997;
+		z0 = 0.943997;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.900000)
-		var = 0.946583;
+		z0 = 0.946583;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.950000)
-		var = 0.949055;
+		z0 = 0.949055;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 2.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.000000)
-		var = 0.951419;
+		z0 = 0.951419;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.050000)
-		var = 0.953678;
+		z0 = 0.953678;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.100000)
-		var = 0.955838;
+		z0 = 0.955838;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.150000)
-		var = 0.957901;
+		z0 = 0.957901;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.200000)
-		var = 0.959871;
+		z0 = 0.959871;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.250000)
-		var = 0.961754;
+		z0 = 0.961754;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.300000)
-		var = 0.963551;
+		z0 = 0.963551;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.350000)
-		var = 0.965267;
+		z0 = 0.965267;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.400000)
-		var = 0.966905;
+		z0 = 0.966905;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.450000)
-		var = 0.968468;
+		z0 = 0.968468;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.500000)
-		var = 0.969959;
+		z0 = 0.969959;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.550000)
-		var = 0.971383;
+		z0 = 0.971383;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.600000)
-		var = 0.972740;
+		z0 = 0.972740;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.650000)
-		var = 0.974035;
+		z0 = 0.974035;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.700000)
-		var = 0.975270;
+		z0 = 0.975270;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.750000)
-		var = 0.976448;
+		z0 = 0.976448;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.800000)
-		var = 0.977571;
+		z0 = 0.977571;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.850000)
-		var = 0.978641;
+		z0 = 0.978641;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.900000)
-		var = 0.979662;
+		z0 = 0.979662;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.950000)
-		var = 0.980634;
+		z0 = 0.980634;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 3.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.000000)
-		var = 0.981561;
+		z0 = 0.981561;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.050000)
-		var = 0.982445;
+		z0 = 0.982445;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.100000)
-		var = 0.983287;
+		z0 = 0.983287;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.150000)
-		var = 0.984089;
+		z0 = 0.984089;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.200000)
-		var = 0.984853;
+		z0 = 0.984853;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.250000)
-		var = 0.985581;
+		z0 = 0.985581;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.300000)
-		var = 0.986275;
+		z0 = 0.986275;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.350000)
-		var = 0.986935;
+		z0 = 0.986935;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.400000)
-		var = 0.987565;
+		z0 = 0.987565;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.450000)
-		var = 0.988164;
+		z0 = 0.988164;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.500000)
-		var = 0.988735;
+		z0 = 0.988735;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.550000)
-		var = 0.989278;
+		z0 = 0.989278;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.600000)
-		var = 0.989796;
+		z0 = 0.989796;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.650000)
-		var = 0.990289;
+		z0 = 0.990289;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.700000)
-		var = 0.990758;
+		z0 = 0.990758;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.750000)
-		var = 0.991205;
+		z0 = 0.991205;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.800000)
-		var = 0.991630;
+		z0 = 0.991630;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.850000)
-		var = 0.992035;
+		z0 = 0.992035;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.900000)
-		var = 0.992420;
+		z0 = 0.992420;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.950000)
-		var = 0.992787;
+		z0 = 0.992787;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 4.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.000000)
-		var = 0.993137;
+		z0 = 0.993137;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.050000)
-		var = 0.993469;
+		z0 = 0.993469;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.100000)
-		var = 0.993786;
+		z0 = 0.993786;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.150000)
-		var = 0.994087;
+		z0 = 0.994087;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.200000)
-		var = 0.994374;
+		z0 = 0.994374;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.250000)
-		var = 0.994647;
+		z0 = 0.994647;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.300000)
-		var = 0.994907;
+		z0 = 0.994907;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.350000)
-		var = 0.995154;
+		z0 = 0.995154;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.400000)
-		var = 0.995389;
+		z0 = 0.995389;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.450000)
-		var = 0.995613;
+		z0 = 0.995613;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.500000)
-		var = 0.995826;
+		z0 = 0.995826;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.550000)
-		var = 0.996029;
+		z0 = 0.996029;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.600000)
-		var = 0.996222;
+		z0 = 0.996222;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.650000)
-		var = 0.996405;
+		z0 = 0.996405;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.700000)
-		var = 0.996580;
+		z0 = 0.996580;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.750000)
-		var = 0.996746;
+		z0 = 0.996746;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.800000)
-		var = 0.996904;
+		z0 = 0.996904;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.850000)
-		var = 0.997055;
+		z0 = 0.997055;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.900000)
-		var = 0.997198;
+		z0 = 0.997198;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.950000)
-		var = 0.997334;
+		z0 = 0.997334;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 5.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.000000)
-		var = 0.997464;
+		z0 = 0.997464;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.050000)
-		var = 0.997588;
+		z0 = 0.997588;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.100000)
-		var = 0.997705;
+		z0 = 0.997705;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.150000)
-		var = 0.997817;
+		z0 = 0.997817;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.200000)
-		var = 0.997923;
+		z0 = 0.997923;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.250000)
-		var = 0.998024;
+		z0 = 0.998024;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.300000)
-		var = 0.998120;
+		z0 = 0.998120;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.350000)
-		var = 0.998212;
+		z0 = 0.998212;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.400000)
-		var = 0.998299;
+		z0 = 0.998299;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.450000)
-		var = 0.998382;
+		z0 = 0.998382;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.500000)
-		var = 0.998460;
+		z0 = 0.998460;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.550000)
-		var = 0.998535;
+		z0 = 0.998535;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.600000)
-		var = 0.998607;
+		z0 = 0.998607;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.650000)
-		var = 0.998675;
+		z0 = 0.998675;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.700000)
-		var = 0.998739;
+		z0 = 0.998739;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.750000)
-		var = 0.998801;
+		z0 = 0.998801;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.800000)
-		var = 0.998859;
+		z0 = 0.998859;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.850000)
-		var = 0.998915;
+		z0 = 0.998915;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.900000)
-		var = 0.998967;
+		z0 = 0.998967;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.950000)
-		var = 0.999018;
+		z0 = 0.999018;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 6.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.000000)
-		var = 0.999066;
+		z0 = 0.999066;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.050000)
-		var = 0.999111;
+		z0 = 0.999111;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.100000)
-		var = 0.999154;
+		z0 = 0.999154;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.150000)
-		var = 0.999196;
+		z0 = 0.999196;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.200000)
-		var = 0.999235;
+		z0 = 0.999235;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.250000)
-		var = 0.999272;
+		z0 = 0.999272;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.300000)
-		var = 0.999308;
+		z0 = 0.999308;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.350000)
-		var = 0.999341;
+		z0 = 0.999341;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.400000)
-		var = 0.999373;
+		z0 = 0.999373;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.450000)
-		var = 0.999404;
+		z0 = 0.999404;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.500000)
-		var = 0.999433;
+		z0 = 0.999433;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.550000)
-		var = 0.999461;
+		z0 = 0.999461;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.600000)
-		var = 0.999487;
+		z0 = 0.999487;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.650000)
-		var = 0.999512;
+		z0 = 0.999512;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.700000)
-		var = 0.999536;
+		z0 = 0.999536;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.750000)
-		var = 0.999558;
+		z0 = 0.999558;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.800000)
-		var = 0.999580;
+		z0 = 0.999580;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.850000)
-		var = 0.999600;
+		z0 = 0.999600;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.900000)
-		var = 0.999620;
+		z0 = 0.999620;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.950000)
-		var = 0.999638;
+		z0 = 0.999638;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 7.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.000000)
-		var = 0.999656;
+		z0 = 0.999656;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.050000)
-		var = 0.999673;
+		z0 = 0.999673;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.100000)
-		var = 0.999689;
+		z0 = 0.999689;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.150000)
-		var = 0.999704;
+		z0 = 0.999704;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.200000)
-		var = 0.999718;
+		z0 = 0.999718;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.250000)
-		var = 0.999732;
+		z0 = 0.999732;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.300000)
-		var = 0.999745;
+		z0 = 0.999745;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.350000)
-		var = 0.999758;
+		z0 = 0.999758;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.400000)
-		var = 0.999769;
+		z0 = 0.999769;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.450000)
-		var = 0.999781;
+		z0 = 0.999781;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.500000)
-		var = 0.999791;
+		z0 = 0.999791;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.550000)
-		var = 0.999802;
+		z0 = 0.999802;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.600000)
-		var = 0.999811;
+		z0 = 0.999811;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.650000)
-		var = 0.999820;
+		z0 = 0.999820;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.700000)
-		var = 0.999829;
+		z0 = 0.999829;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.750000)
-		var = 0.999838;
+		z0 = 0.999838;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.800000)
-		var = 0.999845;
+		z0 = 0.999845;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.850000)
-		var = 0.999853;
+		z0 = 0.999853;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.900000)
-		var = 0.999860;
+		z0 = 0.999860;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.950000)
-		var = 0.999867;
+		z0 = 0.999867;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 8.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.000000)
-		var = 0.999873;
+		z0 = 0.999873;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.050000)
-		var = 0.999880;
+		z0 = 0.999880;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.100000)
-		var = 0.999885;
+		z0 = 0.999885;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.150000)
-		var = 0.999891;
+		z0 = 0.999891;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.200000)
-		var = 0.999896;
+		z0 = 0.999896;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.250000)
-		var = 0.999901;
+		z0 = 0.999901;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.300000)
-		var = 0.999906;
+		z0 = 0.999906;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.350000)
-		var = 0.999911;
+		z0 = 0.999911;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.400000)
-		var = 0.999915;
+		z0 = 0.999915;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.450000)
-		var = 0.999919;
+		z0 = 0.999919;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.500000)
-		var = 0.999923;
+		z0 = 0.999923;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.550000)
-		var = 0.999927;
+		z0 = 0.999927;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.600000)
-		var = 0.999931;
+		z0 = 0.999931;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.650000)
-		var = 0.999934;
+		z0 = 0.999934;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.700000)
-		var = 0.999937;
+		z0 = 0.999937;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.750000)
-		var = 0.999940;
+		z0 = 0.999940;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.800000)
-		var = 0.999943;
+		z0 = 0.999943;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.850000)
-		var = 0.999946;
+		z0 = 0.999946;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.900000)
-		var = 0.999949;
+		z0 = 0.999949;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.950000)
-		var = 0.999951;
+		z0 = 0.999951;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 9.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.000000)
-		var = 0.999953;
+		z0 = 0.999953;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.050000)
-		var = 0.999956;
+		z0 = 0.999956;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.100000)
-		var = 0.999958;
+		z0 = 0.999958;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.150000)
-		var = 0.999960;
+		z0 = 0.999960;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.200000)
-		var = 0.999962;
+		z0 = 0.999962;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.250000)
-		var = 0.999964;
+		z0 = 0.999964;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.300000)
-		var = 0.999966;
+		z0 = 0.999966;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.350000)
-		var = 0.999967;
+		z0 = 0.999967;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.400000)
-		var = 0.999969;
+		z0 = 0.999969;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.450000)
-		var = 0.999970;
+		z0 = 0.999970;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.500000)
-		var = 0.999972;
+		z0 = 0.999972;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.550000)
-		var = 0.999973;
+		z0 = 0.999973;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.600000)
-		var = 0.999974;
+		z0 = 0.999974;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.650000)
-		var = 0.999976;
+		z0 = 0.999976;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.700000)
-		var = 0.999977;
+		z0 = 0.999977;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.750000)
-		var = 0.999978;
+		z0 = 0.999978;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.800000)
-		var = 0.999979;
+		z0 = 0.999979;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.850000)
-		var = 0.999980;
+		z0 = 0.999980;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.900000)
-		var = 0.999981;
+		z0 = 0.999981;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.950000)
-		var = 0.999982;
+		z0 = 0.999982;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 10.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.000000)
-		var = 0.999983;
+		z0 = 0.999983;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.000000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.050000)
-		var = 0.999984;
+		z0 = 0.999984;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.050000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.100000)
-		var = 0.999985;
+		z0 = 0.999985;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.100000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.150000)
-		var = 0.999985;
+		z0 = 0.999985;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.150000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.200000)
-		var = 0.999986;
+		z0 = 0.999986;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.200000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.250000)
-		var = 0.999987;
+		z0 = 0.999987;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.250000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.300000)
-		var = 0.999987;
+		z0 = 0.999987;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.300000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.350000)
-		var = 0.999988;
+		z0 = 0.999988;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.350000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.400000)
-		var = 0.999989;
+		z0 = 0.999989;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.400000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.450000)
-		var = 0.999989;
+		z0 = 0.999989;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.450000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.500000)
-		var = 0.999990;
+		z0 = 0.999990;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.500000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.550000)
-		var = 0.999990;
+		z0 = 0.999990;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.550000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.600000)
-		var = 0.999991;
+		z0 = 0.999991;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.600000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.650000)
-		var = 0.999991;
+		z0 = 0.999991;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.650000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.700000)
-		var = 0.999991;
+		z0 = 0.999991;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.700000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.750000)
-		var = 0.999992;
+		z0 = 0.999992;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.750000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.800000)
-		var = 0.999992;
+		z0 = 0.999992;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.800000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.850000)
-		var = 0.999993;
+		z0 = 0.999993;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.850000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.900000)
-		var = 0.999993;
+		z0 = 0.999993;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.900000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.950000)
-		var = 0.999993;
+		z0 = 0.999993;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.950000) <= x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 12.000000)
-		var = 0.999994;
+		z0 = 0.999994;
 	end
 	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 12.050000) > x
-		var = 1.000000;
+		z0 = 1.000000;
 	end
 end
