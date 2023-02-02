@@ -156,11 +156,11 @@ void Generator::generate_dummy_file (std::string filename, std::string output) {
         assert (mini_bias.size() == bias_name.size());
 
         for (int j = 0; j < mini_weight.size(); ++j) {
-            body += "\t" + weight_name.at(j) + " = " + std::to_string(mini_weight.at(j)) + "\n";
+            body += "\t" + weight_name.at(j) + " = " + pt_xfix + ", " + std::to_string(mini_weight.at(j)) + ");\n";
         }
 
         for (int j = 0; j < mini_bias.size(); ++j) {
-            body += "\t" + bias_name.at(j) + " = " + std::to_string(mini_bias.at(j)) + "\n";
+            body += "\t" + bias_name.at(j) + " = " + pt_xfix + ", " + std::to_string(mini_bias.at(j)) + ");\n";
         }
     }
 
