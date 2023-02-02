@@ -24,14 +24,14 @@ static std::string gen_boundary (std::string var, std::string comp, std::string 
 
 static std::string gen_header_start (std::string var, std::string comp, std::string encapsulation, double lower_bound, double value) {
     std::string message = "\tif ";
-    message += encapsulation + ", " + std::to_string (lower_bound) + ") < " + comp + "\n";
+    message += encapsulation + ", " + std::to_string (lower_bound) + ") > " + comp + "\n";
     message += "\t\t" + var + " = " + encapsulation + ", " +std::to_string (value) + ");\n";
     return message + "\tend\n";
 }
 
 static std::string gen_tail_start (std::string var, std::string comp, std::string encapsulation, double upper_bound, double value) {
    std::string message = "\tif ";
-    message += encapsulation + ", " + std::to_string (upper_bound) + ") > " + comp + "\n";
+    message += encapsulation + ", " + std::to_string (upper_bound) + ") < " + comp + "\n";
     message += "\t\t" + var + " = " + encapsulation + ", " +std::to_string (value) + ");\n";
     return message + "\tend\n"; 
 }

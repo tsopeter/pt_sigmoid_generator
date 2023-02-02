@@ -1,5 +1,5 @@
 function z0 = pt_sigmoid_Fix_64_32(x)
-	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -12.000000) < x
+	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, -12.000000) > x
 		z0 = xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.000000);
 	end
 	if (xfix({xlSigned, 64, 32, xlRound, xlWrap}, -12.000000) <= x) && (x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, -11.950000))
@@ -1442,7 +1442,7 @@ function z0 = pt_sigmoid_Fix_64_32(x)
 	if (xfix({xlSigned, 64, 32, xlRound, xlWrap}, 11.950000) <= x) && (x <= xfix({xlSigned, 64, 32, xlRound, xlWrap}, 12.000000))
 		z0 = xfix({xlSigned, 64, 32, xlRound, xlWrap}, 0.999994);
 	end
-	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 12.050000) > x
+	if xfix({xlSigned, 64, 32, xlRound, xlWrap}, 12.050000) < x
 		z0 = xfix({xlSigned, 64, 32, xlRound, xlWrap}, 1.000000);
 	end
 end
